@@ -1,0 +1,31 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww44300\viewh21520\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf0 Description for Simon Says - Matthew Shabaily\
+\
+The Simon Says game opens with three options, Single-player, Multi-player, and a Scoreboard\
+\
+SINGLE-PLAYER\
+The Single-player mode begins automatically on selecting the mode, continuing to run until a single incorrect colour is selected\
+On completing a 10 colour sequence, a pop-up appears telling the player they have won - prompting them to continue to the next round with a sequence of +5 length\
+If the play makes a mistake within their sequence, a pop-up appears telling the player they have lost - prompting them to enter their name to be added to the scoreboard\
+\
+MULTI-PALYER\
+The Multi-player mode opens an \'93add players\'94 screen when selected\
+The Players are prompted to enter their names, being able to add or remove players using a stepper (min of 2, max of 5)\
+After selecting their names, the players enter a co-operative game against the computer that plays similarly to single-player, but being prompted using their names to take turns\
+The only other difference is that they are asked to enter a team name that is saved to the scoreboard should they lose\
+\
+SCORE-BOARD\
+The Scoreboard opens the \'93high scores\'94 section, where scores are saved using user defaults and sorted based on the amount of points\
+Please see the (currently commented) line in viewDidLoad() of the main view controller if you would like to clear the currently saved scores during testing (though this is not to be considered a feature of the project)\
+\
+ADDITIONAL\
+When entering names, the code checks and triggers a pop-up if the name contains \'93:\'94 or \'93/\'93 - this is because they are used to split strings in the scoreboards during data storage (any names with these characters will not save and will trigger a UIAlertController\
+\
+Thanks for reading,\
+Matt. }
